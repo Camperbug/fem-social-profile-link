@@ -32,6 +32,7 @@ main {
   max-width: 20.4rem;
   background-color: var(--clr-secondary-3-darkest-grey);
   border-radius: 0.75rem;
+
 }
 
 .socials {
@@ -46,10 +47,29 @@ main {
   color: #FFF;
   background:var(--clr-secondary-4-grey);
   margin-bottom: 1rem;
-  padding: 0.75rem 3rem;
-
+  /* padding: 0.75rem 3rem; */
+  font-weight: 700;
   border-radius: 0.5rem;
+}
 
+.socials a:nth-child(1) {
+  padding: 0.75rem 6rem;
+}
+
+.socials a:nth-child(2) {
+  padding: 0.75rem 3.6rem;
+}
+
+.socials a:nth-child(3) {
+  padding: 0.75rem 5.61rem;
+}
+
+.socials a:nth-child(4) {
+  padding: 0.75rem 6rem;
+}
+
+.socials a:nth-child(5) {
+  padding: 0.75rem 5.28rem;
 }
 
 .client-image {
@@ -82,4 +102,9 @@ p {
   margin-bottom: 1.5rem;
   font-weight: 400;
   line-height: 1.31rem;
+}
+
+a:hover {
+  background-color: var(--clr-primary-1-lime-green);
+  color: black;
 }
